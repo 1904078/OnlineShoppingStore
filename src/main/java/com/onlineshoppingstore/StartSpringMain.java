@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class StartSpringTest {
+public class StartSpringMain {
   private static final Logger logger = LoggerFactory.getLogger(StartSpringTest.class);
 
   public static void main(String[] args) {
