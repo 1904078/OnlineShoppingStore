@@ -8,9 +8,9 @@ import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class StartSpringMain {
-  private static final Logger logger = LoggerFactory.getLogger(StartSpringTest.class);
+  private static final Logger logger = LoggerFactory.getLogger(StartSpringMain.class);
 
   public static void main(String[] args) {
-    ApplicationContext applicationContext = SpringApplication.run(StartSpringTest.class, args);
+    ApplicationContext applicationContext = SpringApplication.run(StartSpringMain.class, args);
   }
 }
